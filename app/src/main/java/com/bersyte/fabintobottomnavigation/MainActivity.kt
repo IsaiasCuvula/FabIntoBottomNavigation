@@ -12,6 +12,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        
+
+        binding.bottomNavView.background = null
+
+        //aqui desabilitamos o terceiro item do menu nav bottom
+        // pra dar mais espaco nos outros item (pra nao ficarem muito colado ao fab)
+        binding.bottomNavView.menu.getItem(2).isEnabled = false
+
     }
 }
