@@ -11,7 +11,7 @@
         android:title="Search" />
 
     <item
-        android:id="@+id/placehlder"
+        android:id="@+id/placeholder"
         android:title=""/>
 
     <item
